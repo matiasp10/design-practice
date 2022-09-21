@@ -1,0 +1,84 @@
+.container {
+  display: flex;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 200px;
+}
+
+.projects {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  background-color: #fce7e9;
+  border-radius: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.project {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-around;
+  margin: 50px 0;
+  padding: 0 50px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+}
+
+.title {
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.description {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.github,
+.demo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 900;
+  margin: 10px 0;
+  text-decoration: none;
+  color: #000;
+}
+
+.github:visited,
+.demo:visited {
+  color: transparent;
+}
+
+@media (max-width: 425px) {
+  .title {
+    font-size: 16px;
+  }
+
+  .info {
+    margin: 0 20px;
+  }
+
+  .buttons {
+    margin: 0 20px;
+  }
+}
